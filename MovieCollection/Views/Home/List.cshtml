@@ -8,17 +8,17 @@
             <tr><th>Category</th><th>Title</th><th>Year</th><th>Director</th><th>Rating</th><th>Edited</th><th>LentTo</th><th>Notes</th></tr>
         </thead>
         <tbody>
-            @foreach (Assignment9.Models.ApplicationResponse x in Model)
+            @foreach (var Movie in Model)
             {
                 <tr>
-                    <td>@x.Category</td>
-                    <td>@x.Title</td>
-                    <td>@x.Year</td>
-                    <td>@x.Director</td>
-                    <td>@x.Rating</td>
-                    <td>@x.Edited</td>
-                    <td>@x.LentTo</td>
-                    <td>@x.Notes</td>
+                    <td>@Movie.Category</td>
+                    <td>@Movie.Title</td>
+                    <td>@Movie.Year</td>
+                    <td>@Movie.Director</td>
+                    <td>@Movie.Rating</td>
+                    <td>@Movie.Edited</td>
+                    <td>@Movie.LentTo</td>
+                    <td>@Movie.Notes</td>
                 </tr>
             }
 

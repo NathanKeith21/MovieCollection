@@ -172,3 +172,7 @@ C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp
 C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Details.cshtml.g.cs
 C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Edit.cshtml.g.cs
 C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Index.cshtml.g.cs
+C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Home\Confirmation.cshtml.g.cs
+C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Home\Form.cshtml.g.cs
+C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Home\List.cshtml.g.cs
+C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Home\Podcast.cshtml.g.cs
