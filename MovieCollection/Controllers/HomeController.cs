@@ -24,33 +24,30 @@ namespace MovieCollection.Controllers
         {
             return View();
         }
-        public IActionResult Podcasts()
+        public IActionResult Podcast()
         {
             return View();
         }
+        //connects to the form to fill out
         [HttpGet]
-        public IActionResult MovieEntry()
+        public IActionResult Form()
         {
             return View();
         }
+        //connects to the confirmation page if the form was filled out correctly. Otherwise stays on the form
         [HttpPost]
-        public IActionResult EnterMovie(Movie m)
+        public IActionResult Form(Movie movie)
         {
-            //make sure there are no errors
             if (ModelState.IsValid)
             {
-                //add the movie to the database
-                _context.Movies.Add(m);
+                _context.Add(movie);
                 _context.SaveChanges();
-                return View("Confirmation", m);
+                return View("Confirmation", movie);
             }
-            //send back the same page with validation summary if there are errors
-            else
-            {
-                return View();
-            }
+            return View();
         }
-        public IActionResult MovieList()
+        //connects to the list page, bringing the list of movies from the form page with it
+        public IActionResult List()
         {
             return View(_context.Movies);
         }

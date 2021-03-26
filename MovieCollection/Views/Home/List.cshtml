@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "The Joel Hilton Film Collection";
+}
+<!--This view lists the films that the user has added through the form page-->
+<div class="text-center table">
+    <table>
+        <thead>
+            <tr><th>Category</th><th>Title</th><th>Year</th><th>Director</th><th>Rating</th><th>Edited</th><th>LentTo</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+            @foreach (Assignment9.Models.ApplicationResponse x in Model)
+            {
+                <tr>
+                    <td>@x.Category</td>
+                    <td>@x.Title</td>
+                    <td>@x.Year</td>
+                    <td>@x.Director</td>
+                    <td>@x.Rating</td>
+                    <td>@x.Edited</td>
+                    <td>@x.LentTo</td>
+                    <td>@x.Notes</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
