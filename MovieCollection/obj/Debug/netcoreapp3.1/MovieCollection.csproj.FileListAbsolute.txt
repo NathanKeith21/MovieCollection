@@ -167,3 +167,8 @@ C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp
 C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\MovieCollection.dll
 C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\MovieCollection.pdb
 C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\MovieCollection.genruntimeconfig.cache
+C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Create.cshtml.g.cs
+C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Delete.cshtml.g.cs
+C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Details.cshtml.g.cs
+C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Edit.cshtml.g.cs
+C:\Users\natha\source\repos\MovieCollection\MovieCollection\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Index.cshtml.g.cs
